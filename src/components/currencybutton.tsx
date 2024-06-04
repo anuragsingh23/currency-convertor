@@ -14,8 +14,8 @@ type currencyProps = PropsWithChildren<{
 const CurrencyButton = (props: currencyProps) : JSX.Element =>  {
  return( 
  <View style ={style.buttonContainer} >
-    <Text> {props.flag}</Text>
-    <Text> {props.name}</Text>
+    <Text style={style.flag}> {props.flag}</Text>
+    <Text style={style.country}> {props.name}</Text>
   </View>
  )
 }
@@ -31,6 +31,7 @@ const style =  StyleSheet.create({
     country: {
         fontSize:14,
         color: 'red',
+        marginBottom:4
     }
 
 })

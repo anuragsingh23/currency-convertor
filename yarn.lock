@@ -3992,6 +3992,7 @@ __metadata:
     prettier: 2.8.8
     react: 18.2.0
     react-native: 0.74.1
+    react-native-snackbar: ^2.6.2
     react-test-renderer: 18.2.0
     typescript: 5.0.4
   languageName: unknown
@@ -7946,6 +7947,16 @@ __metadata:
   version: 17.0.2
   resolution: "react-is@npm:17.0.2"
   checksum: 9d6d111d8990dc98bc5402c1266a808b0459b5d54830bbea24c12d908b536df7883f268a7868cfaedde3dd9d4e0d574db456f84d2e6df9c4526f99bb4b5344d8
+  languageName: node
+  linkType: hard
+
+"react-native-snackbar@npm:^2.6.2":
+  version: 2.7.1
+  resolution: "react-native-snackbar@npm:2.7.1"
+  peerDependencies:
+    react: ">=16"
+    react-native: ">=0.60"
+  checksum: f2bbc23c779ef73bc8e9e0491278ab00ebf3c434c332093f1ea70ee8e0e4e410a987d0eb13a69ef608023a52d99c089d79aaef365fe60f2baa5726bea367d76d
   languageName: node
   linkType: hard
 
